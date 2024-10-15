@@ -17,5 +17,5 @@ env:
 #- TOXENV=python3.9
 install: pip install -U tox
 language: python
-python: 3.6
+python: 3.8
 script: tox -e ${TOXENV}
