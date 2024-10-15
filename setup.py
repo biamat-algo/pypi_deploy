@@ -8,8 +8,8 @@ with open('HISTORY.rst') as history_file:
 
 setup(
     name='great-module',
-    version='0.1.0',
-    description="Blah.",
+    version='0.2.0',
+    description="Blah blah blah 0.2.0",
     long_description=readme + '\n\n' + history,
     long_description_content_type='text/x-rst',
     url='https://github.com/Algolytics/dq_client',

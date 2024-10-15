@@ -2,6 +2,7 @@ deploy:
   distributions: sdist bdist_wheel
   provider: pypi
   server: https://test.pypi.org/simple/
+  skip_cleanup: true
 #  true:
 #    condition: $TOXENV == py35
 #    repo: Algolytics/dq_client
