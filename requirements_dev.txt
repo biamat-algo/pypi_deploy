@@ -9,3 +9,4 @@ cryptography~=1.7.1
 PyYAML>=3.12
 pytest>=3.0.5
 twine>=1.8.1
+setuptools>=31.0.0,<72.0
