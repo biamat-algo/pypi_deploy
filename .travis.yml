@@ -20,4 +20,7 @@ env:
 install: pip install -U tox
 language: python
 python: 3.8
-script: tox -e ${TOXENV}
+script:
+  - sudo apt update
+  - sudo apt upgrade openssl
+  - tox -e ${TOXENV}
