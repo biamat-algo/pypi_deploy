@@ -2,7 +2,7 @@ dist: jammy
 deploy:
   distributions: sdist bdist_wheel
   provider: pypi
-  server: https://test.pypi.org/simple/
+  server: https://test.pypi.org/legacy/
   skip_cleanup: true
 #  true:
 #    condition: $TOXENV == py35
