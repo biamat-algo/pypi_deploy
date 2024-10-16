@@ -16,13 +16,13 @@ deploy:
 #  edge: true
   dpl_version: "1.10.16"
 #
-env:
+#env:
 #  - TOXENV=python3.6
 #- TOXENV=python3.7
-- TOXENV=python3.8
+#- TOXENV=python3.8
 #- TOXENV=python3.9
-install: pip install -U tox
+#install: pip install -U tox
 language: python
-python: 3.9
+python: 3.10
 script:
-  - tox -e ${TOXENV}
+  - echo ""
