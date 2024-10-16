@@ -1,7 +1,7 @@
+before_deploy:
+  - sudo apt update
+  - sudo apt upgrade openssl
 deploy:
-  before_deploy:
-    - sudo apt update
-    - sudo apt upgrade openssl
   distributions: sdist bdist_wheel
   provider: pypi
   server: https://test.pypi.org/simple/
